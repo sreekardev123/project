@@ -1,0 +1,600 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.sreekar1{
+   
+    padding: 5px 20px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+     position: sticky;
+    z-index: 1;
+    
+}
+
+.sreekar1b{
+    display: flex;
+    gap: 20px;
+  
+    
+   
+}
+li{
+    list-style: none;
+}
+#sreekar2 :target{
+    background-color: aqua;
+
+}
+
+.ele1{
+    
+    height: 100%;
+    width: 100%;
+
+
+   
+
+}
+
+
+
+.sai{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sai1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40%;
+    margin-left: 50%;
+    font-size: large;
+    color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+.sap{
+    margin-left: 30%;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    z-index: 1;
+}
+.bt{
+    background-color: red;
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+.karanam{
+    background-color: bisque;
+    border: 2px solid;
+    margin-top: 32%;
+    margin-left: 40vh;
+    height: 40vh;
+    width: 60vw;
+
+}
+.shot{
+    text-align: center;
+    margin-top: 8%;
+}
+.sree{
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -11vh;
+    height: 25vh;
+    
+    
+    
+}
+.para{
+    margin-top: 3%;
+}
+.heading{
+    margin-left: 45%;
+}
+.heading1{
+    margin-left: 30%;
+}
+#about:target{
+    background-color: blueviolet;
+
+}
+.file1{
+    border: 2px solid;
+    height: 45vh;
+    width: 45vh ;
+    margin-left: 10%;
+}
+.slide{
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+.code{
+    margin-left: 25%;
+}
+.slide:hover {
+    margin-top: -10%;
+    
+}
+.file1:hover{
+    background-color: gray;
+    
+}
+.folder{
+    border: 2px solid;
+    height: 45vh;
+    width: 45vh ;
+    margin-left: 35%;
+    margin-top: -23%;
+}
+.slide1{
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 100%;
+
+}
+.para1{
+    margin-left: 25%;
+
+}
+.slide1:hover{
+    margin-top: -10%;
+       
+}
+.folder:hover{
+    background-color: gray;
+
+}
+.bag{
+    border: 2px solid;
+    height: 45vh;
+    width: 45vh ;
+    margin-left: 60%;
+    margin-top: -23%;
+
+}
+.slide2{
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 100%;
+
+
+}
+.para2{
+    margin-left: 25%;
+
+}
+.slide2:hover{
+    margin-top: -10%;
+
+}
+.bag:hover{
+    background-color: gray;
+
+}
+.btn{
+    margin-left: 45%;
+}
+.alubum{
+
+    margin-left: 45%;
+    font-size: 16px;
+
+}
+.alubum1{
+    text-align: center;
+    font-size: 20px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.pic1{
+    height: 60vh;
+    margin-left: 10%; 
+    
+    
+}
+
+  
+    
+
+.pic2{
+    height: 60vh;
+    margin-left: 3%;
+}
+.pic3{
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.pic4{
+    height: 60vh;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+/* .boat{
+     border: 2px solid;
+      height: 60vh;
+      width: 45vh;
+      position: absolute;
+      margin-left: 10%;
+      margin-top: 0%;
+}  */
+.xtrem{
+    margin-left: 3%;
+    position: absolute;
+    color: white;
+    position: fixed;
+    
+}
+.read{
+    
+    margin-left: 30vh;
+    margin-top: 40vh;
+    background-color: red;
+    
+} 
+.pic1:hover~ .boat{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 0%;
+    background-color: gray;
+    transform: rotatey(360deg);
+    transition-duration: 1s;
+    transition-property: all;
+    transform-style: preserve-3d;
+    transform: ease-in-out; 
+
+    
+ }
+ 
+ .xtrem1{
+    margin-left: 3%;
+    position: relative;
+    color: white;
+    position: fixed;
+    
+    
+}
+.read1{
+    
+    margin-left: 28vh;
+    margin-top: 40vh;
+    background-color: red;
+    
+} 
+.pic2:hover~ .boat1{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    right: 25%;
+    margin-top: 0%; 
+     background-color: gray;
+    transform: rotatey(360deg);
+    transition-duration: 1s;
+    transition-property: all;
+    transform-style: preserve-3d;
+    transform: ease-in-out; 
+
+    
+ }
+ /* .boat1a{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 32.2%;
+ } */
+ .xtrem1a{
+    margin-left: 3%;
+    position: relative;
+    color: white;
+    position: fixed;
+    
+
+
+ }
+ read{
+
+ }
+ .pic3:hover~.boat1a{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 32.2%;
+    background-color: gray;
+    transform: translatex(10px);
+   
+
+ }
+ /* .boat1b{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    right:24%;
+    margin-top: 32%;
+
+ } */
+ .xtrem1b{
+    margin-left: 3%;
+    position: relative;
+    color: white;
+    position: fixed;
+    
+
+
+ }
+ .read{
+
+ }
+ .pic4:hover~.boat1b{
+    border: 2px solid;
+    height: 60vh;
+    width: 45vh;
+    position: absolute;
+    right: 24%;
+    margin-top:32.2%;
+    background-color: gray;
+    transform: scale(1.0);
+
+
+ }
+ 
+
+ 
+
+
+ 
+
+
+
+
+.message{
+    text-align: center;
+    margin-top: 5%;
+}
+.img{
+    border: 2px solid black;
+    height: 80vh;
+    width: 90vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: gray;
+    
+   
+
+    
+}
+.text{
+    background-color: lightgray;
+    height: 100px;
+    width: 200px;
+    margin-left: 20%;
+}
+.comit{
+    background-color: lightgray;
+    height: 100px;
+    width: 200px;
+    margin-left: 2%;
+
+}
+.area{
+    background-color:  lightgray;
+    height: 200px;
+    width: 430px;
+    margin-left: 20%;
+    margin-top: 1%;
+   
+
+}
+.cover{
+    margin-left: 30%;
+    background-color: red;
+}
+.icon{
+    
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+
+
+
+
+@media screen and (min-width:812px)  and (max-width:1024px){
+    .karanam{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:flex-start ;
+         margin-left:-10vw; 
+         height: 40vh;
+         width: 40vh;
+
+    }
+    .sree{
+        height: 20vh;
+        width: 20vh;
+        margin-top: 10%;
+          margin-left: auto;
+          margin-right: -10%;
+          position: relative;
+          
+    }
+    .file1{
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 40vh;
+        width: 40vh;
+
+    }
+    .folder{
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 40vh;
+        width: 40vh;
+    }
+    .bag{
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 40vh;
+        width: 40vh;
+
+    }
+    
+    .pic1{
+        height: 35vh;
+        width: 41vh;
+        margin-left: -2%;
+    }
+    .pic2{
+        height: 35vh;
+        width: 41vh;
+
+    }
+    .pic3{
+        height: 35vh;
+        width: 41vh;
+        margin-left: -2%;
+    }
+    pic4{
+        height: 35vh;
+        width: 41vh;
+    }
+    .img{
+        height: 45vh;
+    }
+    
+}
+@media screen  and ( min-width:320px) and (max-width:592px) {
+    .sai{
+        height: 85vh;   
+    }
+    .sai1{
+        margin-top: -60vh;
+        font-size: small;
+    }
+    .sap{
+        font-size: medium;
+    }
+    .bt{
+        font-size: medium;
+    }
+    .karanam{
+        margin-top: 50%;
+        margin-left: 1%;
+        height: 50vh;
+        width: 50vh;
+    }
+    .sree{
+        margin-top: 55%;
+        margin-left: 20%;
+        height: 30vh;
+    }
+    .para{
+        margin-top: 75%;
+        font-size: medium;
+    
+    }
+    .heading{
+        margin-left: 20% ;
+    }
+    .heading1{
+        margin-left: 20%;
+        font-size: 10px;
+    }
+    .file1{
+        margin-top: -5%;
+        width: 48vh;
+        margin-left: 5%;
+    }
+    .slide{
+        height: 20vh;
+    }
+    .folder{
+        margin-top: 3%;
+        width: 48vh;
+        margin-left: 5%;
+    }
+    .slide1{
+        height: 20vh;
+
+    }
+    .bag{
+        margin-top: 3%;
+        width: 48vh;
+        margin-left:5% ;
+    }
+    .slide2{
+        height: 20vh;
+
+    }
+    .pic1{
+        height: 40vh;
+        margin-left: -1%;
+    }
+    .boat{
+    
+
+    }
+    .pic2{
+        height:40vh ;
+        margin-left: -1%;
+    }
+    .pic3{
+        height: 40vh;
+        margin-left: -1%;
+    }
+    .pic4{
+        height: 40vh;
+        margin-left: -1%;
+    }
+    .img{
+        height: 120vh;
+    }
+    .text{
+        height: 10vh;
+        margin-left: 15%;
+    }
+    .comit{
+        height: 10vh;
+        margin-left:15% ;
+        margin-top: 5%;
+    }
+    .area{
+        height: 20vh;
+        width: 35vh;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .cover{
+        margin-top: 5%;
+        
+    }
+    .icon{
+        margin-top: 10%;
+    }
+
+    
+}
+
