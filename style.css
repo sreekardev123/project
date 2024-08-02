@@ -8,20 +8,31 @@
 .sreekar1{
    
     padding: 5px 20px;
-    /* background-color: bisque; */
+    background-color: bisque;
+  
     display: flex;
     justify-content: space-between;
-     position: sticky;
-    z-index: 1;
+     position: fixed;
+     top: 0%;
+     width: 198vh;
+     
+    
     
 }
 
 .sreekar1b{
     display: flex;
     gap: 20px;
+
   
     
    
+}
+.hp{
+    text-decoration: none;
+    color: black;
+
+
 }
 li{
     list-style: none;
@@ -422,70 +433,151 @@ li{
 
 
 @media screen and (min-width:812px)  and (max-width:1024px){
-    .karanam{
-        display: flex;
-        flex-direction: column;
-        align-items:flex-start;
-        justify-content:flex-start ;
-         margin-left:-10vw; 
-         height: 40vh;
-         width: 40vh;
 
+    .sreekar1a{
+        font-size: 30px;
+        
+    }
+    .sreekar1b{
+       font-size: 25px;
+       margin-left: 80%;
+    }
+   
+    .sai{
+        
+        height: 80vh;
+        width: 150vw;
+    }
+    
+    .karanam{
+        height: 50vh;
+        width:90vh;
+        margin-left: 8%;
+    }
+    .shot{
+        font-size: 25px;
     }
     .sree{
-        height: 20vh;
-        width: 20vh;
-        margin-top: 10%;
-          margin-left: auto;
-          margin-right: -10%;
-          position: relative;
-          
+        margin-top: -8%;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .para{
+        font-size: 22px;
+        margin-top: 15%;
+    }
+    
+    .phone{
+       display: grid;
+       grid-template-columns: 50% 50% 50%;
     }
     .file1{
-        margin-top: 30px;
-        margin-left: 5%;
-        height: 40vh;
-        width: 40vh;
+        margin-top: 2%;
+        margin-left: -1%;
+        width: 50vw;
 
+
+    }
+    .code{
+        font-size: 25px;
+        margin-left: 10%;
     }
     .folder{
-        margin-top: 30px;
-        margin-left: 5%;
-        height: 40vh;
-        width: 40vh;
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 50vw;
+    }
+    .para1{
+        font-size: 25px;
+        margin-left: 10%;
     }
     .bag{
-        margin-top: 30px;
+        margin-top: 2%;
+        margin-left: 8%;
+        width: 50vw;
+    }
+    .para2{
+        font-size: 25px;
         margin-left: 5%;
-        height: 40vh;
-        width: 40vh;
+    }
 
+    .alubum{
+        margin-left: 60%;
+        font-size: 35px;
+    }
+    .alubum1{
+        margin-left: 35%;
+        font-size: 35px;
     }
     
     .pic1{
-        height: 35vh;
-        width: 41vh;
-        margin-left: -2%;
+       height: 44vh;
+       margin-left: 1%;
+       margin-top: 10%;
     }
     .pic2{
-        height: 35vh;
-        width: 41vh;
+        height: 44vh;
+        margin-left: 78%;
+        margin-top: -57%;
 
     }
     .pic3{
-        height: 35vh;
-        width: 41vh;
-        margin-left: -2%;
+        height: 44vh;
+        width: 59vh;
+        margin-left: 1%;
+
     }
-    pic4{
-        height: 35vh;
-        width: 41vh;
+    .pic4{
+        height: 44vh;
+        margin-left: 79%;
+        margin-top: -56%;
     }
     .img{
-        height: 45vh;
+        height: 80vh;
+        width: 115vh;
+        margin-left: 2%;
     }
-    
 }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and ( min-width:320px) and (max-width:592px) {
     .boat, .boat1, .boat1a, .boat1b{
         display: none;
@@ -512,13 +604,16 @@ li{
         font-size: medium;
     }
     .karanam{
-        margin-top: 50%;
+        margin-top: 55%;
         margin-left: 2%;
         height: 50vh;
         width: 60vh;
     }
+    .shot{
+        margin-top: 15%;
+    }
     .sree{
-        margin-top: 52%;
+        margin-top: 48%;
         margin-left: 20%;
         height: 30vh;
     }
